@@ -33,7 +33,7 @@ const contact = () => {
             href="https://www.linkedin.com/in/guilherme-miranda-29139224b/"
             id="profile-link"
             target="_blank">
-            <i class="fab fa-linkedin"></i>Github
+            <i class="fab fa-linkedin"></i>LinkedIn
           </a>
           <a href="mailto:guilhermecm@sapo.pt">
             <i class="fa fa-at"></i>Send a mail
