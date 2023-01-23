@@ -53,8 +53,8 @@ const About = () => {
       <h1>About Me</h1>
       <div className={AboutStyles.text}>
         <p>
-          Hi, my name is <strong>Guilherme</strong>, I am 19 years old, and I
-          come from Portugal, now living in Denmark, Horsens.
+          Hi, my name is <strong>Guilherme</strong>, I am 19 years old and I
+          am from Portugal, now living in Denmark, Horsens.
         </p>
         <p>I'm passionate about Back-End systems, but I can be Full-Stack.</p>
         <p>I have developed 3 real-life projects and many academic ones.</p>
