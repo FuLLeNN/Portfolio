@@ -133,6 +133,7 @@
 
 @media screen and (max-width: 600px) {
   .underConstruct {
-    display: none;
+    font-size: small;
   }
 }
+
