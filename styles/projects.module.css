@@ -132,7 +132,7 @@
 
 @media screen and (max-width: 600px) {
   .underConstruct {
-    font-size: 2px;
+    font-size: 2rem;
   }
 }
 
