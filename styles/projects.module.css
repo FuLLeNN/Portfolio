@@ -130,3 +130,9 @@
   vertical-align: top;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .underConstruct {
+    display: none;
+  }
+}
