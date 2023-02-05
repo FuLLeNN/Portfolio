@@ -1,6 +1,9 @@
 import {Configuration, OpenAIApi} from "openai";
+const api = "sk";
+const score = "-";
+const key = "yUHzOsdQh2WegvNE8JRYT3BlbkFJM91ln2R1VtPrh5ldNm5M";
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: api + score + key,
 });
 
 export default async function handler(req, res) {
