@@ -7,7 +7,7 @@
 - Will be updating the website with more content
 
     ```md
-    ![portfolio](public/portf.png)
+   <img src="/public/portf.png" alt="Portfolio" />
     ```
 ## Features
 
