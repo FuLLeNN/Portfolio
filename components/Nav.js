@@ -38,7 +38,7 @@ const Nav = () => {
       <ul className={NavStyle.iconlinks}>
         <li>
           <a
-            href="https://www.linkedin.com/in/guilherme-miranda-29139224b/"
+            href="https://github.com/FuLLeNN"
             target="_blank">
             <i className="fab fa-github" target="_blank"></i>
           </a>
