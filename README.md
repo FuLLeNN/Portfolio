@@ -6,9 +6,9 @@
 - Made in Next.js
 - Will be updating the website with more content
 
-    ```md
+   
    <img src="/public/portf.png" alt="Portfolio" />
-    ```
+   
 ## Features
 
 - CV on main page
