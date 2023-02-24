@@ -40,7 +40,7 @@ export default function Home() {
             Below you can see my resume.
           </motion.p>
         </div>
-        <Link href="/GuilhermeMiranda.pdf" passHref>
+        <Link href="/CVGuilhermeMiranda.pdf" passHref>
           <a target="_blank">
             <motion.button
               className={HomeStyles.glowonhover}
