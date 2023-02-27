@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   });
 
   return (
-    <>
+    <Html lang="en">
       <Head>
         <link
           rel="stylesheet"
@@ -54,6 +54,9 @@ const Layout = ({ children }) => {
           crossOrigin=""
         />
         <title>Guilherme Miranda</title>
+        <meta name="description" content="Guilherme Miranda Portfolio"/>
+        <meta name="keywords" content="Portfolio, Developer"/>
+        <meta name="author" content="Guilherme Miranda"/>
       </Head>
 
       <div className={LayoutStyle.container}>
@@ -70,7 +73,7 @@ const Layout = ({ children }) => {
           </div>
         </main>
       </div>
-    </>
+    </Html>
   );
 };
 
