@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   });
 
   return (
-    <Html lang="en">
+    <>
       <Head>
         <link
           rel="stylesheet"
@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
           </div>
         </main>
       </div>
-    </Html>
+    </>
   );
 };
 

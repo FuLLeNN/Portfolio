@@ -5,7 +5,7 @@ import BackgroundAnimation from "./Background";
 import BackgroundAnimation2 from "./Background2";
 
 const Projects = () => {
-  return (
+  /*return (
     <div className={ProjectStyles.project}>
       <h1>Projects</h1>
 
@@ -25,7 +25,7 @@ const Projects = () => {
       <BackgroundAnimation2 />
     </div>
   );
-  /*
+*/
   return (
     <div className={ProjectStyles.project}>
       <h1>Projects</h1>
@@ -33,30 +33,46 @@ const Projects = () => {
       <div className={ProjectStyles.cardgroup}>
         <div className="card card1">
           <Image
-            src="/1.png"
-            alt="Picture of the author"
+            src="/rigacup.png"
+            alt="RigaCup"
             width={500}
             height={300}
           />
-          <h1>MERN Memories</h1>
+          <h1>Riga Cup</h1>
           <hr />
           <p>
-            Using React, Node.js, Express & MongoDB you&apos;`ll learn how to build a
-            Full Stack MERN Application - from start to finish. The App is
-            called Memories and it is a simple social media app that allows
-            users to post interesting events that happened in their lives.
+            Developed the Database and Tournament System (Groups, Categories, etc).<br/>
+              Tech: PHP (CodeIgniter), MySQL
           </p>
 
           <div className={ProjectStyles.buttongroup}>
-            <button>Code</button>
-            <button>Source</button>
+              <a href="https://www.rigacup.lv/" target="_blank"><button>Demo</button></a>
           </div>
+        </div>
+          <div className="card card1">
+              <Image
+                  src="/chess.png"
+                  alt="RigaCup"
+                  width={500}
+                  height={300}
+              />
+              <h1>Chess (Soon)</h1>
+              <hr />
+              <p>
+                 Online chess with authentication, friends and elo system.(Being Developed).<br/>
+                  Tech: React, Firebase
+              </p>
+
+              <div className={ProjectStyles.buttongroup}>
+                  <a href="#" target="_blank"><button disabled={true}>Demo</button></a>
+                  <a href="https://github.com/FuLLeNN/Chess" target="_blank"><button>Source</button></a>
+              </div>
         </div>
       </div>
       <BackgroundAnimation />
       <BackgroundAnimation2 />
     </div>
-  );*/
+  );
 };
 
 export default Projects;
