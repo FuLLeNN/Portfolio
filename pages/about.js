@@ -29,7 +29,7 @@ const About = () => {
     {
       id: "5",
       numyear: "2022",
-      para: "Started studying Software Engineering and learn more technologies",
+      para: "Start studying Software Engineering and learn more technologies",
     },
   ]);
   return (
@@ -53,11 +53,11 @@ const About = () => {
       <h1>About Me</h1>
       <div className={AboutStyles.text}>
         <p>
-          Hi, my name is <strong>Guilherme</strong>, I am 19 years old and I
-          am from Portugal, now living in Denmark, Horsens.
+          Hi, my name is <strong>Guilherme</strong>, I am a 19-year-old software developer,
+          currently living in Horsens, Denmark.
         </p>
-        <p>I'm a passionate Full-Stack Developer, looking for an amazing company.</p>
-        <p>I have developed 3 real-life projects and many academic ones.</p>
+        <p>I'm a passionate Full-Stack Developer with some experience, looking for an amazing company that challenges me daily.</p>
+        <p>I have a Technical Degree in programming and I am currently in my 3rd semester of Software Engineering, which I expect to complete in 2025.</p>
         <br />
         <br />
         <div className={AboutStyles.yearslist}>
