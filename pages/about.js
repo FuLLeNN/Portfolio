@@ -57,7 +57,8 @@ const About = () => {
           currently living in Horsens, Denmark.
         </p>
         <p>I'm a passionate Full-Stack Developer with some experience, looking for an amazing company that challenges me daily.</p>
-        <p>I have a Technical Degree in programming and I am currently in my 3rd semester of Software Engineering, which I expect to complete in 2025.</p>
+        <p>I have a Technical Degree in programming and I am currently in my 4th semester of Software Engineering, which I expect to complete in 2025.</p>
+        <p>Looking for Internship (Spring 2024).</p>
         <br />
         <br />
         <div className={AboutStyles.yearslist}>
